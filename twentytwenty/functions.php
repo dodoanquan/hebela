@@ -799,3 +799,17 @@ function my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
 
+
+
+/* user classic editor  */
+add_filter('use_block_editor_for_post', '__return_false');
+
+
+
+// Giới hạn từ bài viết mô tả
+function teaser($limit) { $excerpt = explode(' ', get_the_excerpt(), $limit); if (count($excerpt)>=$limit) { array_pop($excerpt); $excerpt = implode(" ",$excerpt).'[...]'; } else { $excerpt = implode(" ",$excerpt); } $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt); return $excerpt.'...'; }
+
+
+
+
+

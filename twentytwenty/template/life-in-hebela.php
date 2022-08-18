@@ -42,19 +42,19 @@
 
                     <div>
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1484.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1484.png" alt="">
 
                     </div>
 
                     <div class="">
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1483.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1483.png" alt="">
 
                     </div>
 
                     <div class="">
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1482.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1482.png" alt="">
 
                     </div>
 
@@ -62,15 +62,11 @@
 
                 <div class="slider_nav">
 
-                    <div class="am-next-1"><img
-
-                            src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/next.png" alt="next">
+                    <div class="am-next-1"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/next.png" alt="next">
 
                     </div>
 
-                    <div class="am-prev-1"><img
-
-                            src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/prev.png" alt="prev">
+                    <div class="am-prev-1"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/prev.png" alt="prev">
 
                     </div>
 
@@ -80,9 +76,7 @@
 
             <div class="col-lg-4 order-lg-1">
 
-                <img class="m-auto none-mb"
-
-                    src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1481.png" alt="">
+                <img class="m-auto none-mb" src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1481.png" alt="">
 
                 <div class="none-des">
 
@@ -90,21 +84,15 @@
 
                         <div class="col-7">
 
-                            <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1481.png"
-
-                                alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1481.png" alt="" class="img-fluid">
 
                         </div>
 
                         <div class="col-5 d-flex flex-column justify-content-between" style="padding-left: 0px">
 
-                            <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1483.png"
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1483.png" alt="" class="img-fluid">
 
-                                alt="" class="img-fluid">
-
-                            <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1482.png"
-
-                                alt="" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1482.png" alt="" class="img-fluid">
 
                         </div>
 
@@ -150,13 +138,9 @@
 
                 <div class="col-lg-4 col-12 culture1 p-0 position-relative">
 
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1991.png" alt=""
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1991.png" alt="" class="w-100 h-100 position-absolute img-culture2 cul-32-hover">
 
-                        class="w-100 h-100 position-absolute img-culture2 cul-32-hover">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1340.png" alt=""
-
-                        class="w-100 h-100 position-absolute img-culture1 cul-31-hover">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1340.png" alt="" class="w-100 h-100 position-absolute img-culture1 cul-31-hover">
 
                 </div>
 
@@ -172,13 +156,9 @@
 
                 <div class="col-lg-4 col-6 culture1 p-0 position-relative">
 
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1990.png" alt=""
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1990.png" alt="" class="w-100 h-100 position-absolute img-culture2 cul-32-hover">
 
-                        class="w-100 h-100 position-absolute img-culture2 cul-32-hover">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1342.png" alt=""
-
-                        class="w-100 h-100 position-absolute img-culture1 cul-31-hover">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1342.png" alt="" class="w-100 h-100 position-absolute img-culture1 cul-31-hover">
 
                 </div>
 
@@ -194,13 +174,9 @@
 
                 <div class="col-lg-4 col-6 culture1 p-0 position-relative">
 
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1992.png" alt=""
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1992.png" alt="" class="w-100 h-100 position-absolute img-culture2">
 
-                        class="w-100 h-100 position-absolute img-culture2">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1381.png" alt=""
-
-                        class="w-100 h-100 position-absolute img-culture1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1381.png" alt="" class="w-100 h-100 position-absolute img-culture1">
 
                 </div>
 
@@ -222,9 +198,7 @@
 
                     <div class="col-6 m-0 p-0">
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1340-m.png" alt=""
-
-                            class="w-100">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1340-m.png" alt="" class="w-100">
 
                     </div>
 
@@ -244,9 +218,7 @@
 
                     <div class="col-12  m-0 p-0">
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1381.png" alt=""
-
-                            class="w-100">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1381.png" alt="" class="w-100">
 
                     </div>
 
@@ -280,9 +252,7 @@
 
                     <div class="col-6 m-0 p-0">
 
-                        <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1340-m.png" alt=""
-
-                            class="w-100 img-fluid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/rectangle-1340-m.png" alt="" class="w-100 img-fluid">
 
                     </div>
 
@@ -299,265 +269,183 @@
     <!-- carousel  -->
 
     <div class="owl-carousel owl-2 owl-theme none-mb">
+        <?php
+        $args = array(
+            'category_name' => 'Đào tạo',
+            'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+            'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
+            'limit' => 5,
+            'order' => 'DESC',
+            'orderby' => 'menu_order',
+        );
+        $query = new WP_Query($args);
+        if ($query->have_posts()) :
+            while ($query->have_posts()) : $query->the_post();
+        ?>
+                <div class="item">
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="position-relative">
 
-        <div class="item">
+                            <img src="<?php the_post_thumbnail_url() ?>" alt="">
 
-            <div class="position-relative">
+                            <div class="position-absolute btn-training">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1334.png" alt="">
+                                <img class="d-inline" src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/icon-gioi-thieu.png" alt="img-btn-training">
 
-                <div class="position-absolute btn-training">
+                                <span>Đào tạo</span>
 
-                    <img class="d-inline"
+                            </div>
 
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
+                        </div>
 
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
-
+                        <p><?php the_title(); ?></p>
+                    </a>
                 </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
-
-        <div class="item">
-
-            <div class="position-relative">
-
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1335.png" alt="">
-
-                <div class="position-absolute btn-training">
-
-                    <img class="d-inline"
-
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
-
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
-
-                </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
-
-        <div class="item">
-
-            <div class="position-relative">
-
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1336.png" alt="">
-
-                <div class="position-absolute btn-training">
-
-                    <img class="d-inline"
-
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
-
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
-
-                </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
+        <?php
+            endwhile;
+        endif;
+        wp_reset_postdata();
+        ?>
 
     </div>
 
     <div class="slider_nav">
 
-        <div class="am-next-2"><img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/next.png"
+        <div class="am-next-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/next.png" alt="next"></div>
 
-                alt="next"></div>
-
-        <div class="am-prev-2"><img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/prev.png"
-
-                alt="prev"></div>
+        <div class="am-prev-2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/prev.png" alt="prev"></div>
 
     </div>
 
     <script>
+        jQuery(document).ready(function($) {
 
-    jQuery(document).ready(function($) {
+            $('.owl-2').owlCarousel({
 
-        $('.owl-2').owlCarousel({
+                loop: true,
 
-            loop: true,
+                margin: 15,
 
-            margin: 15,
+                nav: true,
 
-            nav: true,
+                // navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"],
 
-            // navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"],
+                navText: [$('.am-next-2'), $('.am-prev-2')],
 
-            navText: [$('.am-next-2'), $('.am-prev-2')],
+                center: true,
 
-            center: true,
+                autoplay: true,
 
-            autoplay: true,
+                autoplayTimeout: 5000,
 
-            autoplayTimeout: 5000,
+                autoplayHoverPause: true,
 
-            autoplayHoverPause: true,
+                dots: false,
 
-            dots: false,
+                responsive: {
 
-            responsive: {
+                    0: {
 
-                0: {
+                        items: 1,
 
-                    items: 1,
+                    },
 
-                },
+                    992: {
 
-                992: {
+                        items: 3
 
-                    items: 3
-
-                }
-
-            }
-
-        })
-
-
-
-        $('.owl-1').owlCarousel({
-
-            loop: true,
-
-            margin: 15,
-
-            nav: true,
-
-            // navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"],
-
-            navText: [$('.am-next-1'), $('.am-prev-1')],
-
-            center: true,
-
-            autoplay: true,
-
-            autoplayTimeout: 5000,
-
-            autoplayHoverPause: true,
-
-            dots: false,
-
-            responsive: {
-
-                0: {
-
-                    items: 1
-
-                },
-
-                992: {
-
-                    items: 3
+                    }
 
                 }
 
-            }
+            })
+
+
+
+            $('.owl-1').owlCarousel({
+
+                loop: true,
+
+                margin: 15,
+
+                nav: true,
+
+                // navText: ["<img src='myprevimage.png'>","<img src='mynextimage.png'>"],
+
+                navText: [$('.am-next-1'), $('.am-prev-1')],
+
+                center: true,
+
+                autoplay: true,
+
+                autoplayTimeout: 5000,
+
+                autoplayHoverPause: true,
+
+                dots: false,
+
+                responsive: {
+
+                    0: {
+
+                        items: 1
+
+                    },
+
+                    992: {
+
+                        items: 3
+
+                    }
+
+                }
+
+            })
 
         })
-
-    })
-
     </script>
 
 
 
     <div class="none-des">
+        <?php
+        $args = array(
+            'category_name' => 'Đào tạo',
+            'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+            'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
+            'limit' => 5,
+            'order' => 'DESC',
+            'orderby' => 'menu_order',
+        );
+        $query = new WP_Query($args);
+        if ($query->have_posts()) :
+            while ($query->have_posts()) : $query->the_post();
+        ?>
+                <div class="item">
+                <a href="<?php the_permalink(); ?>">
+                    <div class="position-relative">
 
-        <div class="item">
+                        <img src="<?php the_post_thumbnail_url() ?>" alt="" class="w-100">
 
-            <div class="position-relative">
+                        <div class="position-absolute btn-training">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1334.png" alt=""
+                            <img class="d-inline" src="<?php echo get_template_directory_uri(); ?>/assets/images/life-in-hebela/icon-gioi-thieu.png" alt="img-btn-training">
 
-                    class="w-100">
+                            <span>Đào tạo</span>
 
-                <div class="position-absolute btn-training">
+                        </div>
 
-                    <img class="d-inline"
+                    </div>
 
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
-
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
-
-                </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
-
-        <div class="item">
-
-            <div class="position-relative">
-
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1335.png" alt=""
-
-                    class="w-100">
-
-                <div class="position-absolute btn-training">
-
-                    <img class="d-inline"
-
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
-
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
+                    <p><?php the_title(); ?></p>
+                    </a>
 
                 </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
-
-        <div class="item">
-
-            <div class="position-relative">
-
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/rectangle-1336.png" alt=""
-
-                    class="w-100">
-
-                <div class="position-absolute btn-training">
-
-                    <img class="d-inline"
-
-                        src="<?php echo get_template_directory_uri();?>/assets/images/life-in-hebela/icon-gioi-thieu.png"
-
-                        alt="img-btn-training">
-
-                    <span>Đào tạo</span>
-
-                </div>
-
-            </div>
-
-            <p>I-Holding Chương trình vinh danh nhân viên xuất sắc Tháng 6</p>
-
-        </div>
-
+        <?php
+            endwhile;
+        endif;
+        wp_reset_postdata();
+        ?>
     </div>
 
 </section>

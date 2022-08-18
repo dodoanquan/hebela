@@ -8368,3 +8368,74 @@ textarea {
 		margin: 15px 0 20px 0;
 	}
 }
+
+
+.form-contact input,.form-contact textarea{
+	outline-color: #F1791F;
+}
+
+.job a,.news-event a,.item a,.article-right a {
+	text-decoration: none !important;
+	color: #414141 !important;
+	
+}
+
+.mb15{
+	margin-bottom: 15px;
+}
+
+
+body:not(.overlay-header).category .primary-menu>li>a,
+body:not(.overlay-header).single-post .primary-menu>li>a
+{
+	color: #414141;
+}
+
+
+
+
+.post-wrap{
+	padding-top: 30px;
+}
+
+
+
+.single-post .btn-cv button {
+	background: #F1791F !important;
+	padding: 12px 0px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 500;
+	line-height: 14px;
+	text-align: center;
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.single-post  .btn-cv button:last-child {
+	background: #FFFFFF !important;
+	margin-left: 10px;
+	border: 1px solid #CACACA;
+	color: #000;
+}
+
+.single-post .btn-cv button img {
+	margin-right: 5px;
+	margin-bottom: 4px;
+}
+
+
+@media screen and (min-width: 993px) {
+	.post-template-default .container.position-relative{
+		position: static !important;
+	}
+	
+	.post-template-default .container.position-relative #site-header1{
+		position: static !important;
+	}
+}
+
+
+.pb10{
+	padding-bottom: 10px;
+}

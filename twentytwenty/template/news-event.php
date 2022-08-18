@@ -68,7 +68,7 @@ get_header();
 
         <div class="row">
 
-            <div class="col-lg-3">
+            <!-- <div class="col-lg-3">
 
                 <a href="http://localhost/landingpage/article-detail/">
 
@@ -132,7 +132,39 @@ get_header();
 
                 </a>
 
-            </div>
+            </div> -->
+
+
+
+            <?php
+                    $args = array(
+                        'category_name' => 'Tin tức sự kiện',
+                        'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+                        'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây  lấy ra 5 bài )
+                        'limit' => 5,
+                        'order' => 'DESC',
+                        'orderby' => 'menu_order',
+                    );
+                    $query = new WP_Query($args);
+                    if ($query->have_posts()) :
+                        while ($query->have_posts()) : $query->the_post();
+                    ?>
+                             <div class="col-lg-3">
+                                <img src="<?php the_post_thumbnail_url() ?>" alt="" class="w-100">
+                                <!-- cái hình này là thumbnail lấy cái link ra -->
+                                <p class="desc color-black fw-400">
+
+                                    <!-- Hebela đồng hành cùng sự kiện hoa khôi tài năng - Beauty & Charm 2022 -->
+                                    <!-- cái này là tiêu đề bài viết -->
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                </p>
+                            </div>
+                    <?php
+                        endwhile;
+                    endif;
+                    wp_reset_postdata();
+                    ?>
+
 
 
 
