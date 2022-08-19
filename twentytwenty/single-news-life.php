@@ -27,7 +27,7 @@
                         'posts_per_page' => 2,
                         'limit' => 2,
                         'order' => 'DESC',
-                        'orderby' => 'menu_order',
+                        'orderby' => 'title',
                     );
                     $query = new WP_Query($args);
                     if ($query->have_posts()) :
@@ -63,7 +63,7 @@
                         'posts_per_page' => 2,
                         'limit' => 2,
                         'order' => 'DESC',
-                        'orderby' => 'menu_order',
+                        'orderby' => 'title',
                     );
                     $query = new WP_Query($args);
                     if ($query->have_posts()) :

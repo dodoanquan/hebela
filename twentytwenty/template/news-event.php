@@ -22,19 +22,19 @@ get_header();
 
             <div class="col-12 none-mb">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/banner-event1.png" alt="" class="w-100">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/banner-event1.png" alt="" class="w-100">
 
             </div>
 
             <div class="col-lg-5 none-mb">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/banner-event2.png" alt="" class="w-100">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/banner-event2.png" alt="" class="w-100">
 
             </div>
 
             <div class="col-12 none-des">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/banner-event-mb.png" alt="" class="w-100">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/banner-event-mb.png" alt="" class="w-100">
 
             </div>
 
@@ -67,103 +67,34 @@ get_header();
         <h2 class="title-h2 fw-700">Niềm tự hào Hebela</h2>
 
         <div class="row">
-
-            <!-- <div class="col-lg-3">
-
-                <a href="http://localhost/landingpage/article-detail/">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event1.png" alt="" class="w-100">
-
-                    <p>
-
-                        Hebela đã đến với đêm chung kết cuộc thi Duyên Dáng Ngoại Thương Beauty & Charm 2022
-
-                    </p>
-
-                </a>
-
-            </div>
-
-            <div class="col-lg-3">
-
-                <a href="http://localhost/landingpage/article-detail/">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event2.png" alt="" class="w-100">
-
-                    <p>
-
-                        Hebela đồng hành cùng sự kiện hoa khôi tài năng - Beauty & Charm 2022
-
-                    </p>
-
-                </a>
-
-            </div>
-
-            <div class="col-lg-3">
-
-                <a href="http://localhost/landingpage/article-detail/">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event3.png" alt="" class="w-100">
-
-                    <p>
-
-                        Hebela đồng hành cùng sự kiện hoa khôi tài năng - Beauty & Charm 2022
-
-                    </p>
-
-                </a>
-
-            </div>
-
-            <div class="col-lg-3">
-
-                <a href="http://localhost/landingpage/article-detail/">
-
-                    <img src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event4.png" alt=""
-
-                        class="w-100">
-
-                    <p>
-
-                        Hebela có mặt tại sự kiện “ Ngày không tiền mặt “ 2022
-
-                    </p>
-
-                </a>
-
-            </div> -->
-
-
-
             <?php
-                    $args = array(
-                        'category_name' => 'Tin tức sự kiện',
-                        'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
-                        'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây  lấy ra 5 bài )
-                        'limit' => 5,
-                        'order' => 'DESC',
-                        'orderby' => 'menu_order',
-                    );
-                    $query = new WP_Query($args);
-                    if ($query->have_posts()) :
-                        while ($query->have_posts()) : $query->the_post();
-                    ?>
-                             <div class="col-lg-3">
-                                <img src="<?php the_post_thumbnail_url() ?>" alt="" class="w-100">
-                                <!-- cái hình này là thumbnail lấy cái link ra -->
-                                <p class="desc color-black fw-400">
+            $args = array(
+                'category_name' => 'Tin tức sự kiện',
+                'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+                'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây  lấy ra 5 bài )
+                'limit' => 5,
+                'order' => 'DESC',
+                'orderby' => 'title',
+            );
+            $query = new WP_Query($args);
+            if ($query->have_posts()) :
+                while ($query->have_posts()) : $query->the_post();
+            ?>
+                    <div class="col-lg-3">
+                        <img src="<?php the_post_thumbnail_url() ?>" alt="" class="w-100">
+                        <!-- cái hình này là thumbnail lấy cái link ra -->
+                        <p class="desc color-black fw-400">
 
-                                    <!-- Hebela đồng hành cùng sự kiện hoa khôi tài năng - Beauty & Charm 2022 -->
-                                    <!-- cái này là tiêu đề bài viết -->
-                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                </p>
-                            </div>
-                    <?php
-                        endwhile;
-                    endif;
-                    wp_reset_postdata();
-                    ?>
+                            <!-- Hebela đồng hành cùng sự kiện hoa khôi tài năng - Beauty & Charm 2022 -->
+                            <!-- cái này là tiêu đề bài viết -->
+                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </p>
+                    </div>
+            <?php
+                endwhile;
+            endif;
+            wp_reset_postdata();
+            ?>
 
 
 
@@ -182,17 +113,22 @@ get_header();
 
     <div class="d-flex overflow-hidden flex-wrap">
 
-        <img class="d-block" src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event5.png" alt="">
+        <img class="d-block" src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/event5.png" alt="">
 
-        <img class="d-block mt10-mb" src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event6.png" alt="">
+        <img class="d-block mt10-mb" src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/event6.png" alt="">
 
-        <img class="d-block mt10-mb" src="<?php echo get_template_directory_uri();?>/assets/images/news-event/event7.png" alt="">
+        <img class="d-block mt10-mb" src="<?php echo get_template_directory_uri(); ?>/assets/images/news-event/event7.png" alt="">
 
     </div>
 
 
 
 </section>
+
+
+
+
+
 
 
 

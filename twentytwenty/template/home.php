@@ -463,7 +463,7 @@ get_header();
                         'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
                         'limit' => 5,
                         'order' => 'DESC',
-                        'orderby' => 'menu_order',
+                        'orderby' => 'title',
                     );
                     $query = new WP_Query($args);
                     if ($query->have_posts()) :
@@ -558,7 +558,7 @@ get_header();
                     'posts_per_page' => 5, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
                     'limit' => 5,
                     'order' => 'DESC',
-                    'orderby' => 'menu_order',
+                    'orderby' => 'title',
                 );
                 $query = new WP_Query($args);
                 if ($query->have_posts()) :
