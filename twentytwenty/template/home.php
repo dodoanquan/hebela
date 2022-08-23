@@ -138,13 +138,10 @@ get_header();
 
                     <p class="desc color-black fw-400 desc2">Tìm kiếm cơ hội việc làm với chúng tôi !</p>
 
-                    <div class="d-flex align-items-center">
-
-                        <input type="text" placeholder="Tìm kiếm công việc tại Hebela?" class="desc">
-
-                        <button class="none-mb"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/search.png" alt="" class="w-100"></button>
-
-                    </div>
+                    <form action="<?php echo get_home_url(); ?>/" method="get" class="d-flex align-items-center">
+                        <input type="text" id="s" name="s" class="form-control desc" placeholder="Tìm kiếm công việc tại Hebela?" value="" autocomplete="off">
+                        <button type="submit"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruitment/search.png" alt="" class="w-100"></button>
+                    </form>
 
                 </div>
 
@@ -156,8 +153,7 @@ get_header();
 
                 <?php
                 $args = array(
-                    'category_name' => 'Công việc tuyển dụng',
-                    'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+                    'post_type' => 'tuyen-dung', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
                     'posts_per_page' => 2, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
                     'limit' => 2,
 
@@ -194,8 +190,7 @@ get_header();
 
                 <?php
                 $args = array(
-                    'category_name' => 'Công việc tuyển dụng',
-                    'post_type' => 'post', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
+                    'post_type' => 'tuyen-dung', //cái post type này tức là loại mà bạn muốn lấy ra, vd lấy ra bài viết là post, 
                     'posts_per_page' => 2, //post per page này là số lượng muốn lấy ra (-1 là không giới hạn, ở đây mình lấy ra 5 bài )
                     'limit' => 2,
                     'order' => 'ASC',

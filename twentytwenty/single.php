@@ -4,7 +4,7 @@
   include(TEMPLATEPATH . '/single-news-life.php');
 }if ( in_category('Đào tạo') ) {
     include(TEMPLATEPATH . '/single-news-life.php');}
- if(in_category('Công việc tuyển dụng') ){
+else{
    include(TEMPLATEPATH . '/single-job.php');
   }
 ?>

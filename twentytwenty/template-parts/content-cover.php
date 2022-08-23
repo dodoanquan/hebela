@@ -70,6 +70,8 @@
 									<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
 									<div class="entry-categories-inner">
 										<?php the_category( ' ' ); ?>
+										
+										
 									</div><!-- .entry-categories-inner -->
 								</div><!-- .entry-categories -->
 

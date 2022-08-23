@@ -93,7 +93,7 @@ get_header()
 
             <div class="col-xl-6 mail-contact m-auto">
 
-                <form class="form-contact text-center m-auto" style="width: auto; float:right">
+                <form class="form-contact text-center m-auto" style="width: auto; float:right" method>
 
                     <img class="m-auto none-mb"
 

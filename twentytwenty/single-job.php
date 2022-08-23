@@ -40,12 +40,11 @@
                 <div class="list-article">
                     <?php
                     $args = array(
-                        'category_name' => 'Công việc tuyển dụng',
-                        'post_type' => 'post',
+                        'post_type' => 'tuyen-dung',
                         'posts_per_page' => 4,
                         'limit' => 4,
                         'order' => 'DESC',
-                        'orderby' => 'menu_order',
+                        'orderby' => 'title',
                     );
                     $query = new WP_Query($args);
                     if ($query->have_posts()) :
