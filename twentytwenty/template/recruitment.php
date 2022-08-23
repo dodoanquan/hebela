@@ -5,7 +5,7 @@
  */
 
 ?>
-
+<div class="overlay-mb"></div>
 <?php
 
 get_header()
@@ -15,10 +15,10 @@ get_header()
 	<div class="d-flex justify-content-around aligns-items-center">
 		<div class="w-75 d-flex align-items-center position-relative">
 			<input type="text" placeholder="Tìm kiếm công việc tại Hebela?" class="search-job w-100">
-			<button onclick="search()" class="search-job-btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruitment/search.png" alt="search"></button>
+			<button class="search-job-btn"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruitment/search.png" alt="search"></button>
 		</div>
 		<div class="job-filter">
-			<button>
+			<button class="btn-filter">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/recruitment/job-filter-mb.png" alt="filter">
 			</button>
 			<span>Bộ lọc </span>
@@ -46,25 +46,16 @@ get_header()
 	</div>
 
 </section>
-<script>
-	// function search(){
-	//    let key = document.getElementById("key_search").value;
-	//    window.open("/?s="+key+"&post_type=product")
-	// }
-</script>
 <section class="job">
 
 	<div class="container">
 
 		<div class="row">
 
-			<div class="col-lg-3 none-mb  mt-25">
+			<div class="col-lg-3 mt-25 list-job-mb">
 
 				<div class="option-job">
-					<div id="reset-filter">
-						Reset
-					</div>
-					<h5 class="fw-500 fs-18">Danh mục</h5>
+					<h5 class="fw-500 fs-18 none-mb">Danh mục</h5>
 
 					<?php
 					$categories = get_categories(
@@ -163,9 +154,6 @@ get_header()
 			var thisClassName = $(this).children("i").attr("class");
 
 			if (thisClassName.includes("fa-angle-down")) {
-
-
-
 				$(".job-wrap .job-title").removeClass("fw-700 color-orange")
 
 				$(this).children("i").removeClass("fa-angle-down").addClass("fa-angle-right");
@@ -188,6 +176,23 @@ get_header()
 
 			}
 
+		})
+
+	})
+</script>
+
+
+<script>
+	jQuery(document).ready(function($) {
+
+		$(".btn-filter").click(function() {
+			$('.overlay-mb').show();
+			$(".list-job-mb").slideDown();
+		})
+
+		$(".overlay-mb").click(function() {
+			$('.overlay-mb').hide();
+			$(".list-job-mb").slideUp();
 		})
 
 	})
@@ -272,12 +277,6 @@ get_header()
 			return false;
 		})(jQuery)
 	}
-</script>
-<script>
-	document.getElementById("reset-filter").addEventListener("click", () => {
-		location.reload();
-
-	});
 </script>
 <?php
 

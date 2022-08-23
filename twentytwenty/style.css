@@ -8262,3 +8262,43 @@ body:not(.overlay-header).single-post .primary-menu > li > a {
 	border-radius: 5px;
 	margin-top: 10px;
 }
+
+
+@media screen and (max-width: 992px) {
+	.list-job-mb{
+		position: fixed;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 99000;
+		border-radius: 20px 20px 0px 0px;
+		background-color: white;
+		display: none;
+	}
+
+	.option-job{
+		padding: 15px;
+		border:none;
+		
+	}
+
+	.page-template-recruitment h6{
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.overlay-mb{
+		/* display: block !important; */
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.4);
+		z-index: 999;
+	}
+}
+
+.overlay-mb{
+	display: none;
+}
