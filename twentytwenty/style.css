@@ -7132,47 +7132,6 @@ textarea {
 	margin-bottom: 4px;
 }
 
-/* form cv  */
-.form-cv .close-form {
-	top: -22px;
-	right: -22px;
-	z-index: 99;
-	cursor: pointer;
-}
-
-.input-upload-cv {
-	border: 0.5px dashed #929292;
-	border-radius: 6px;
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.input-upload {
-	border: 1px solid #c4c4c4;
-	border-radius: 5px;
-	font-size: 14px;
-	color: #6b6b6b;
-	padding: 9px 20px;
-	line-height: 14px;
-	font-weight: 550;
-	margin: 4px;
-}
-
-.page-template-recruitment-detail {
-	position: relative;
-}
-
-.form-popup {
-	display: none;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 9999;
-	width: 100%;
-	height: 100%;
-	background-color: rgb(0, 0, 0, 0.09);
-}
 
 /* slide owl  */
 .owl-2 {
@@ -7970,7 +7929,7 @@ textarea {
 }
 
 /* form cv  */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
 	#myForm-2 .cv-img,
 	#myForm-1 .cv-img {
 		display: none !important;
@@ -8014,20 +7973,7 @@ textarea {
 		display: none;
 	}
 
-	.form-cv {
-		padding: 35px;
-		border-radius: 30px 30px 0 0;
-	}
-
-	.form-cv .col-md-6 {
-		padding-left: 0px !important;
-		padding-right: 0px !important;
-	}
-
-	.form-cv .close-form {
-		top: 0;
-		right: 0;
-	}
+	
 }
 
 .job-list {
@@ -8040,7 +7986,7 @@ textarea {
 
 .job-title {
 	cursor: pointer;
-}
+} */
 
 /* recruitment mb */
 @media screen and (max-width: 992px) {
@@ -8302,3 +8248,157 @@ body:not(.overlay-header).single-post .primary-menu > li > a {
 .overlay-mb{
 	display: none;
 }
+
+/* 
+.wpcf7-form  .wpcf7-submit{
+	font-size: 14px;
+    font-weight: 700;
+    border: none;
+    color: #ffffff;
+    height: 45px;
+    background: #f1791f;
+    border-radius: 5px;
+	width: 100%;
+}
+
+.wpcf7-form p{
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.wpcf7-form h3{
+	margin:25px 0;
+	font-size: 32px;
+    line-height: 39px;
+}
+
+.wpcf7-form label{
+	margin:25px 0 8px;
+	font-size: 16px;
+}
+
+.wpcf7-form input[type=text],.wpcf7-form input[type=tel],.wpcf7-form input[type=email],.wpcf7-form textarea{
+	height: 46px;
+	padding: 0 15px;
+	border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    color: #858585;
+	font-size: 14px !important;
+	width: 100%;
+}
+
+.wpcf7-form textarea{
+	height: 80px;
+	padding: 10px;
+}
+
+form.wpcf7-form{
+	background: #ffffff;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    padding: 25px 35px 50px 35px;
+	outline:none;
+}
+
+form.wpcf7-form input:focus, form.wpcf7-form textarea:focus{
+	outline-color: #f1791f !important;
+} */
+
+
+/* .tuyen-dung-template-default form.wpcf7-form{
+	box-shadow: none;
+	border: none;
+	padding: 0;
+}  */
+
+
+/* .tuyen-dung-template-default .form-contact.position-relative{
+	max-width: 632px !important;
+} */
+
+/* .wpcf7-form input[type=file]{
+	border: 0.5px dashed #929292;
+}
+
+
+.wpcf7 form.sent .wpcf7-response-output {
+    background: #46b450;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+	.wpcf7-form h3{
+		margin:0 0 20px 0;
+	}
+
+	.length-text{
+		margin: 5px 0 20px 0 !important;
+	}
+} */
+/* 
+#myForm-1 form{
+	margin: 0 auto;
+	position: relative;
+	background: #ffffff;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+    max-width: 632px;
+    padding: 25px 35px 50px 35px;
+} */
+
+
+#overlay{
+	position: fixed;
+    z-index: 9999999999;
+    width: 100%;
+    height: 100%;
+	background-color: rgb(0, 0, 0);
+    opacity: .6;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#myForm-1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 9999999999999999999999;
+	transform: translate(-50%,-50%);
+	background: white;
+	max-width: 632px;
+	padding: 25px 35px 40px 35px;
+
+}
+.form-popup h3{
+	font-size: 32px;
+	font-weight: 500;
+	padding: 25px 0;
+	margin:0;
+	border-bottom: 1px dashed #C4C4C4;
+}
+
+#myForm-1 label{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0 0 8px 0;
+
+}
+
+#myForm-1 input[type="text" ]{
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+	font-size: 14px;
+	
+}
+
+::placeholder {
+	font-size: 14px;
+	color:#858585;
+	padding:0 13px;
+  }
+
+

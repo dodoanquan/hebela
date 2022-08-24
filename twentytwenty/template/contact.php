@@ -93,83 +93,26 @@ get_header()
 
             <div class="col-xl-6 mail-contact m-auto">
 
-                <form class="form-contact text-center m-auto" style="width: auto; float:right" method>
-
-                    <img class="m-auto none-mb"
-
-                    src="<?php echo get_template_directory_uri();?>/assets/images/contact/mail-intro.png"  alt="">
-
-                    <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
-
-                    <div class="row border-row">
-
-                        <div class="col-lg-6">
-
-                            <p class="text-start label">Họ và tên <span style="color: red;">*</span></p>
-
-                            <input type="text" class="w-100" placeholder="Nhập họ tên">
-
-                        </div>
-
-                        <div class="col-lg-6">
-
-                            <p class="text-start label">Số điện thoại <span style="color: red;">*</span></p>
-
-                            <input type="text" class="w-100" placeholder="Nhập số điện thoại">
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-6">
-
-                            <p class="text-start label">Email</p>
-
-                            <input type="text" class="w-100" placeholder="Nhập email">
-
-                        </div>
-
-                        <div class="col-lg-6">
-
-                            <p class="text-start label">Địa chỉ</p>
-
-                            <input type="text" class="w-100" placeholder="Nhập địa chỉ">
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-12">
-
-                            <p class="text-start label">Nội dung</p>
-
-                            <textarea type="text" class="w-100" placeholder="Nhập nội dung"
-
-                                style=" max-height: 80px; overflow-y: hidden;"
-
-                                placeholder="Nhập nội dung"></textarea>
-
-                            <p class="length-text text-end">0/360</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-12">
-
-                            <button class="w-100 btn-submit">Gửi ngay</button>
-
-                        </div>
-
-                    </div>
-
-                </form>
+            <?php
+                    $args = array(
+                        'category_name' => 'contact',
+                        'post_type' => 'post',
+                        'posts_per_page' => 1,
+                        'limit' => 1,
+                        'order' => 'DESC',
+                        'orderby' => 'title',
+                    );
+                    $query = new WP_Query($args);
+                    if ($query->have_posts()) :
+                        while ($query->have_posts()) : $query->the_post();
+                    ?>
+                            <?php the_content() ?>
+                    <?php
+                        endwhile;
+                    endif;
+                    wp_reset_postdata();
+                    ?>
+                
 
             </div>
 
@@ -179,8 +122,13 @@ get_header()
 
 </section>
 
+
+
+
+
 <?php
 
 get_footer()
 
 ?>
+
